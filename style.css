@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    background-blend-mode: multiply;
+    font-size: 1.1em;
+    font-family: 'poppins', sans-serif;
+}
+
+.Surveyform {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Task1 {
+    margin: 20px;
+    font-weight: 600;
+    color: yellow;
+}
+
+#main-heading {
+    font-size: 1.8em;
+}
+
+#subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+    color: yellow;
+}
+
+#first_div {
+    width: 90%;
+    margin: auto;
+}
+
+#Second_div {
+    margin-top: 10px;
+}
+
+form {
+    background-image: url(images/pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+form .box {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    outline: none;
+}
+
+#option1 select {
+    width: 100%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#option2 select {
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    top: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#content2 textarea {
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    background-color: rgb(199, 219,18);
+    border: none;
+    color: black;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+textarea::placeholder {
+    font-size: 1.4em;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    width: 50%;
+    font-weight: 500;
+}
+
+input::placeholder {
+    font-size: 1.1em;
+    position: relative;
+    left: 10px;
+    width: 50%;
+    font-weight: 500;
+}
+
+input.larger {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width:600px) {
+    form {
+        width: 100%;
+        margin: auto;
+    }
+}
+
